@@ -54,4 +54,5 @@ interface MapTilerMapViewProps extends MapViewBaseProps<MapTilerViewStateInterfa
  */
 declare function MapTilerMapView(props: MapTilerMapViewProps): React.JSX.Element;
 
-export { type MapTilerMap, MapTilerMapView, MapTilerMapViewHolder, type MapTilerMapViewProps, type MapTilerMapViewRef, MapTilerViewController, type MapTilerViewControllerInterface, type NativeMapTilerViewEvent, type NativeMapTilerViewProps };
+export { MapTilerMapView, MapTilerMapViewHolder, MapTilerViewController };
+export type { MapTilerMap, MapTilerMapViewProps, MapTilerMapViewRef, MapTilerViewControllerInterface, NativeMapTilerViewEvent, NativeMapTilerViewProps };
