@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   # android の WebView SDK（com.maptiler.maptilersdk）とは実装が違う。
   # MapLibre は dynamic framework かつ CocoaPods trunk にあるので、そのまま依存できる。
   s.dependency "React-Core"
-  s.dependency "MapConductorCore", "~> 1.3.0"
+  s.dependency "MapConductorCore", "~> 1.4"
   s.dependency "MapConductorReactNativeCore"
   s.dependency "MapConductorReactMarkerClustering"
-  s.dependency "MapConductorForMapTiler", "~> 1.3.0"
-  s.dependency "MapLibre", "~> 6.20"
+  s.dependency "MapConductorForMapTiler", "~> 1.4"
+  s.dependency "MapLibre", "~> 7.0"
 end
